@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Service Design on Ziyue Wang</title>
+    <link>dagoner.github.io/design_types/service-design/</link>
+    <description>Recent content in Service Design on Ziyue Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="dagoner.github.io/design_types/service-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life Wave</title>
+      <link>dagoner.github.io/interaction/life_wave/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>dagoner.github.io/interaction/life_wave/</guid>
+      <description>Design brief Information is the essence of life. This design focuses on propagating a certain kind of electromagnetic waves towards the universe which is based on the analysis of the DNA of the pets. As a result, the traces of the pets’ life can stay for a rather long time, or even forever. This way of handling the body of pets doesn’t occupy any physical space. This kind of electromagnetic waves can’t be touched or felt by human, however, they do exist.</description>
+    </item>
+    
+    <item>
+      <title>Plantales</title>
+      <link>dagoner.github.io/interaction/plantatles/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>dagoner.github.io/interaction/plantatles/</guid>
+      <description>Design brief “Plantales” hope to create planting area for the elderly through overall arrangement of open space in the community, such as the roofs. We invite the elderly people to join us and divide them into groups. At the beginning, we will provide lectures，workshops and materials to teach them planting skills. Then there will be parent-child activities, cooperation with community kindergartens, and so on. After harvest, we will organize activities to distribute the vegetables to other lonely elderly in the communities.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link rel="icon" href="/images/favicon.svg">
+    <link rel="stylesheet" href="/dagoner.github.io/sass/main.min.03fb15405a023ebf0f4ff9cfd4c2758c83faaea04e7879252786518f64d9011d.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora">
+    
+    
+    </head>
+
+<body>
+<div class="container-fluid">
+  <nav class="navigation_bar">
+    
+    <div class="site-title-left">
+        <a href="dagoner.github.io" class="hvr-icon-back">
+        <i class="fa fa-chevron-circle-left fa-lg hvr-icon"  aria-hidden="true"></i> Ziyue
+          
+        </a>
+      </div>
+      
+
+      <div class="nav_tags">
+          
+      
+      
+      
+      <a href="dagoner.github.io/design_types/interaction-design/" class="hvr-float-shadow" style="" >Interaction </a>
+      
+      
+      
+      <a href="dagoner.github.io/design_types/product-design/" class="hvr-float-shadow" style="" >Product </a>
+      
+      
+      
+      
+      
+      <a href="dagoner.github.io/design_types/service-design/" class="hvr-float-shadow" style="" >Service </a>
+      
+      
+      
+      
+      <a href="dagoner.github.ioabout"  class="hvr-float-shadow" style= "">About</a>
+    </div>
+</nav>
+  <header class="header">
+  
+
+
+  <p class="site-desc"></p>
+  
+  <div class="search">
+    <gcse:searchbox-only></gcse:searchbox-only>
+  </div>
+  
+</header>
+  <div class="content_post">
+    <article>
+      <header class="postHeader">
+        <h1 class="postTitle">Bird Museum</h1>
+        <div class="postMeta">
+          <time class="postTime" datetime="2021-03-12">2021.03.12 </time>
+          <div class="duration">4 weeks</div>
+          <div class="author">Ziyue Wang</div>
+        </div>
+      </header>
+      <div class="postContent">
+        <h2 id="introduction">Introduction</h2>
+<p>This is a 4 weeks task, we need to find a set of images and make an app for this image set focusing on Ui &amp; UX. My image set is a collection of birds and I want to make a bird species guide from it.</p>
+<h2 id="brief">Brief</h2>
+<p>A funnier bird species guide aims at encouraging people to know and explore more bird species. Users can view and recognize the birds thorough the sounds, location and drawing, besides that, users can also recognize the bird species by photos and add those bird species into their collection just like a bird version Pokémon Go.</p>
+<h2 id="sketch">sketch</h2>
+<style>
+    img{
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    #popup{
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: none;
+        z-index: 9999999;
+    }
+    #popup .bg{
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+    }
+    @media \0screen\,screen\9 {
+        #popup .bg{
+            background-color:#000000;
+            filter:Alpha(opacity=50);
+            position:static;
+        }
+        #popup .bg img{
+            position: relative;
+        }
+    }
+    #popup img{
+        margin-top: 0%;
+        max-height: 100%;
+        
+    }
+    #dedecmsok {
+        text-align: center;
+    }
+</style>
+
+<div id="dedecmsok">
+    <figure>
+        <img src='https://res.cloudinary.com/dodd7aak7/image/upload/v1616009499/Bird%20Museum/birdsMuseum-02_a7gbmp.png' width='100%' />
+        <figcaption><h6></h6></figcaption>
+        <figcaption>Click to enlarge the picture, if not enough, please use the reading mode</figcaption>
+    </figure>
+</div>
+<div id="popup">
+  <div class="bg">
+    <img src=""/>
+  </div>
+</div>
+
+<script type="text/javascript">
+    var imgs = document.getElementById("dedecmsok").getElementsByTagName("img");
+    var lens = imgs.length;
+    var popup = document.getElementById("popup");
+
+    for(var i = 0; i < lens; i++){
+        imgs[i].onclick = function (event){
+            event = event||window.event;
+            var target = document.elementFromPoint(event.clientX, event.clientY);
+            showBig(target.src);
+        }
+    }
+    popup.onclick = function (){
+        popup.style.display = "none";
+    }
+    function showBig(src){
+        popup.getElementsByTagName("img")[0].src = src;
+        popup.style.display = "block";
+    }
+</script>
+<h2 id="prototype">prototype</h2>
+<style>
+    img{
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    #popup2{
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: none;
+        z-index: 9999999;
+    }
+    #popup2 .bg{
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+    }
+    @media \0screen\,screen\9 {
+        #popup2 .bg{
+            background-color:#000000;
+            filter:Alpha(opacity=50);
+            position:static;
+        }
+        #popup2 .bg img{
+            position: relative;
+        }
+    }
+    #popup2 img{
+        margin-top: 0%;
+        max-height: 100%;
+        
+    }
+    #dedecmsok2 {
+        text-align: center;
+    }
+</style>
+
+<div id="dedecmsok2">
+    <figure>
+        <img src='https://res.cloudinary.com/dodd7aak7/image/upload/v1616009499/Bird%20Museum/birdsMuseum-03_osepri.png' width='100%' />
+        <figcaption><h6></h6></figcaption>
+        <figcaption>Click to enlarge the picture, if not enough, please use the reading mode</figcaption>
+    </figure>
+</div>
+<div id="popup2">
+  <div class="bg">
+    <img src=""/>
+  </div>
+</div>
+
+<script type="text/javascript">
+    var imgs = document.getElementById("dedecmsok2").getElementsByTagName("img");
+    var lens = imgs.length;
+    var popup = document.getElementById("popup2");
+
+    for(var i = 0; i < lens; i++){
+        imgs[i].onclick = function (event){
+            event = event||window.event;
+            var target = document.elementFromPoint(event.clientX, event.clientY);
+            showBig(target.src);
+        }
+    }
+    popup.onclick = function (){
+        popup.style.display = "none";
+    }
+    function showBig(src){
+        popup.getElementsByTagName("img")[0].src = src;
+        popup.style.display = "block";
+    }
+</script>
+<h2 id="testing">testing</h2>
+<style>
+    img{
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    #popup3{
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: none;
+        z-index: 9999999;
+    }
+    #popup3 .bg{
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+    }
+    @media \0screen\,screen\9 {
+        #popup3 .bg{
+            background-color:#000000;
+            filter:Alpha(opacity=50);
+            position:static;
+        }
+        #popup3 .bg img{
+            position: relative;
+        }
+    }
+    #popup3 img{
+        margin-top: 0%;
+        max-height: 100%;
+        
+    }
+    #dedecmsok3 {
+        text-align: center;
+    }
+</style>
+
+<div id="dedecmsok3">
+    <figure>
+        <img src='https://res.cloudinary.com/dodd7aak7/image/upload/v1616009499/Bird%20Museum/birdsMuseum-04_st5zxl.png' width='100%' />
+        <figcaption><h6></h6></figcaption>
+        <figcaption>Click to enlarge the picture, if not enough, please use the reading mode</figcaption>
+    </figure>
+</div>
+<div id="popup3">
+  <div class="bg">
+    <img src=""/>
+  </div>
+</div>
+
+<script type="text/javascript">
+    var imgs = document.getElementById("dedecmsok3").getElementsByTagName("img");
+    var lens = imgs.length;
+    var popup = document.getElementById("popup3");
+
+    for(var i = 0; i < lens; i++){
+        imgs[i].onclick = function (event){
+            event = event||window.event;
+            var target = document.elementFromPoint(event.clientX, event.clientY);
+            showBig(target.src);
+        }
+    }
+    popup.onclick = function (){
+        popup.style.display = "none";
+    }
+    function showBig(src){
+        popup.getElementsByTagName("img")[0].src = src;
+        popup.style.display = "block";
+    }
+</script>
+<h2 id="iteration">iteration</h2>
+<p><style>
+    img{
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    #popup4{
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: none;
+        z-index: 9999999;
+    }
+    #popup4 .bg{
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+    }
+    @media \0screen\,screen\9 {
+        #popup4 .bg{
+            background-color:#000000;
+            filter:Alpha(opacity=50);
+            position:static;
+        }
+        #popup4 .bg img{
+            position: relative;
+        }
+    }
+    #popup4 img{
+        margin-top: 0%;
+        max-height: 100%;
+        
+    }
+    #dedecmsok4 {
+        text-align: center;
+    }
+</style>
+
+<div id="dedecmsok4">
+    <figure>
+        <img src='https://res.cloudinary.com/dodd7aak7/image/upload/v1616009509/Bird%20Museum/birdsMuseum-05_eg3r9e.png' width='100%' />
+        <figcaption><h6></h6></figcaption>
+        <figcaption>Click to enlarge the picture, if not enough, please use the reading mode</figcaption>
+    </figure>
+</div>
+<div id="popup4">
+  <div class="bg">
+    <img src=""/>
+  </div>
+</div>
+
+<script type="text/javascript">
+    var imgs = document.getElementById("dedecmsok4").getElementsByTagName("img");
+    var lens = imgs.length;
+    var popup = document.getElementById("popup4");
+
+    for(var i = 0; i < lens; i++){
+        imgs[i].onclick = function (event){
+            event = event||window.event;
+            var target = document.elementFromPoint(event.clientX, event.clientY);
+            showBig(target.src);
+        }
+    }
+    popup.onclick = function (){
+        popup.style.display = "none";
+    }
+    function showBig(src){
+        popup.getElementsByTagName("img")[0].src = src;
+        popup.style.display = "block";
+    }
+</script>
+<style>
+    .video-position{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+</style>
+
+<div class='video-position' >
+    <figure>
+        <video width='100%'  height='' controls="controls" poster= '' autoplay='autoplay' loop='loop' >
+            <source src= 'https://res.cloudinary.com/dodd7aak7/video/upload/v1616009523/Bird%20Museum/iteration1_p7uafg.mp4' type="video/mp4" />
+        </video>
+        <figcaption><h6></h6></figcaption>
+    </figure>
+</div>
+<style>
+    .video-position{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+</style>
+
+<div class='video-position' >
+    <figure>
+        <video width='100%'  height='' controls="controls" poster= '' autoplay='autoplay' loop='loop' >
+            <source src= 'https://res.cloudinary.com/dodd7aak7/video/upload/v1616009544/Bird%20Museum/iteration2_i8rn5h.mp4' type="video/mp4" />
+        </video>
+        <figcaption><h6></h6></figcaption>
+    </figure>
+</div>
+<style>
+    .video-position{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+</style>
+
+<div class='video-position' >
+    <figure>
+        <video width='100%'  height='' controls="controls" poster= '' autoplay='autoplay' loop='loop' >
+            <source src= 'https://res.cloudinary.com/dodd7aak7/video/upload/v1616009520/Bird%20Museum/iteration3_zcdmq9.mp4' type="video/mp4" />
+        </video>
+        <figcaption><h6></h6></figcaption>
+    </figure>
+</div>
+<style>
+    .video-position{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+</style>
+
+<div class='video-position' >
+    <figure>
+        <video width='100%'  height='' controls="controls" poster= '' autoplay='autoplay' loop='loop' >
+            <source src= 'https://res.cloudinary.com/dodd7aak7/video/upload/v1616009530/Bird%20Museum/iteration4_uobaoy.mp4' type="video/mp4" />
+        </video>
+        <figcaption><h6></h6></figcaption>
+    </figure>
+</div>
+<style>
+    .video-position{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+</style>
+
+<div class='video-position' >
+    <figure>
+        <video width='100%'  height='' controls="controls" poster= '' autoplay='autoplay' loop='loop' >
+            <source src= 'https://res.cloudinary.com/dodd7aak7/video/upload/v1616009526/Bird%20Museum/iteration5_cteyqo.mp4' type="video/mp4" />
+        </video>
+        <figcaption><h6></h6></figcaption>
+    </figure>
+</div>
+<style>
+    .video-position{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+</style>
+
+<div class='video-position' >
+    <figure>
+        <video width='100%'  height='' controls="controls" poster= '' autoplay='autoplay' loop='loop' >
+            <source src= 'https://res.cloudinary.com/dodd7aak7/video/upload/v1616009530/Bird%20Museum/iteration6_oqb0fp.mp4' type="video/mp4" />
+        </video>
+        <figcaption><h6></h6></figcaption>
+    </figure>
+</div></p>
+
+      </div>
+      
+    </article>
+</div>
+  
+</div>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<footer class="footer">
+    <hr />
+    <div class="author_info">
+    <div class="author">
+        <li>
+            The website is still being improved by Ziyue @
+            <a href="dagoner.github.io/interaction/birdmuseum/" alt="">
+                Ziyue Wang
+            </a>
+        </li>
+    </div>
+
+    
+    <div class="social_icon">
+        
+        <li><a href="" class="altColor"><span class="fa fa-behance"></span></a></li>
+        
+        <li><a href="" class="altColor"><span class="fa fa-dribbble"></span></a></li>
+        
+        <li><a href="facebook.com" class="altColor"><span class="fa fa-facebook"></span></a></li>
+        
+        <li><a href="github.com" class="altColor"><span class="fa fa-github"></span></a></li>
+        
+        <li><a href="instagram.com" class="altColor"><span class="fa fa-instagram"></span></a></li>
+        
+        <li><a href="twitter.com" class="altColor"><span class="fa fa-twitter"></span></a></li>
+        
+        <li><a href="youtube.com" class="altColor"><span class="fa fa-youtube"></span></a></li>
+        
+    </div>
+    
+</div>
+</footer>
+
+</body>
+</html>

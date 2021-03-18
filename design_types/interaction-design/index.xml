@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interaction Design on Ziyue Wang</title>
+    <link>dagoner.github.io/design_types/interaction-design/</link>
+    <description>Recent content in Interaction Design on Ziyue Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="dagoner.github.io/design_types/interaction-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bird Museum</title>
+      <link>dagoner.github.io/interaction/birdmuseum/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>dagoner.github.io/interaction/birdmuseum/</guid>
+      <description>Introduction This is a 4 weeks task, we need to find a set of images and make an app for this image set focusing on Ui &amp;amp; UX. My image set is a collection of birds and I want to make a bird species guide from it.
+Brief A funnier bird species guide aims at encouraging people to know and explore more bird species. Users can view and recognize the birds thorough the sounds, location and drawing, besides that, users can also recognize the bird species by photos and add those bird species into their collection just like a bird version Pokémon Go.</description>
+    </item>
+    
+    <item>
+      <title>MeetingFog</title>
+      <link>dagoner.github.io/interaction/meetingfog/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>dagoner.github.io/interaction/meetingfog/</guid>
+      <description>.img-position{box-shadow: rgba(0, 0, 0, 0.1);text-align: left ;} Task requirement How to engage with the CO2 footprints from office meetings? In this task we will look at how Cognite can reduce its own emissions connected to Cognite employees’ behaviour and activities, and focus on the climate gas emissions related to how we run our meetings. By communicating with Cognite’s employees we would like to:</description>
+    </item>
+    
+    <item>
+      <title>Ship O’hoi</title>
+      <link>dagoner.github.io/interaction/ship-controller/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>dagoner.github.io/interaction/ship-controller/</guid>
+      <description>An interactive ship controller, when people&amp;rsquo;s hand get close to the controller (don&amp;rsquo;t have to touch), the graph which is related to the controller will pop out to help the boat driver get the information easier.
+Backround Research this is one project of tangible interaction class, the theme which we choose is ship controller
+Field Observation After visiting the USN (an university in Norway which aims to educate the captain and has the Simulated bridge), Lilaas(an company designs and produces the boat controller ), and talking with the real captain, we find that there are so many controllers on the boat and different controllers are related to different graph on the screen, besides that, there are also many screen on the boat.</description>
+    </item>
+    
+    <item>
+      <title>Elvelangs-Hug</title>
+      <link>dagoner.github.io/interaction/elvelangs/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>dagoner.github.io/interaction/elvelangs/</guid>
+      <description>An interactive device cooperating with Stiftelsen Organdonasjon to help more people know dead organ donation.
+Topic Source This project is one of our tangible interaction project and we cooperate with a organ donation organization of Oslo named Stiftelsen Organdonasjon, theme to introduce the idea of dead organ donation to more people. And this Interactive device finally showed in the light show called Elvelangs and attracted a lot of people.
+One For Seven After their introduction, we thinked various of ideas.</description>
+    </item>
+    
+    <item>
+      <title>Life Wave</title>
+      <link>dagoner.github.io/interaction/life_wave/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>dagoner.github.io/interaction/life_wave/</guid>
+      <description>Design brief Information is the essence of life. This design focuses on propagating a certain kind of electromagnetic waves towards the universe which is based on the analysis of the DNA of the pets. As a result, the traces of the pets’ life can stay for a rather long time, or even forever. This way of handling the body of pets doesn’t occupy any physical space. This kind of electromagnetic waves can’t be touched or felt by human, however, they do exist.</description>
+    </item>
+    
+    <item>
+      <title>GuardRailer</title>
+      <link>dagoner.github.io/product/guradrailer/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>dagoner.github.io/product/guradrailer/</guid>
+      <description>Design brief In this design, the cleaner hangs on the highway guardrail of “W” shape. Then the cleaner can clean the highway guardrail without people’s efforts. What’s more, the cleaner doesn’t occupy any highway track. In addition, the cleaner will adopt nozzle with high-temperature steam, which contributes to saving much water.
+click to enlarge the image and if not clear enlough, please use the reading mode fo the browser img{box-shadow: rgba(0, 0, 0, 0.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link rel="icon" href="/images/favicon.svg">
+    <link rel="stylesheet" href="/dagoner.github.io/sass/main.min.03fb15405a023ebf0f4ff9cfd4c2758c83faaea04e7879252786518f64d9011d.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora">
+    
+    
+    </head>
+
+<body>
+<div class="container-fluid">
+  <nav class="navigation_bar">
+    
+    <div class="site-title-left">
+        <a href="dagoner.github.io" class="hvr-icon-back">
+        <i class="fa fa-chevron-circle-left fa-lg hvr-icon"  aria-hidden="true"></i> Ziyue
+          
+        </a>
+      </div>
+      
+
+      <div class="nav_tags">
+          
+      
+      
+      
+      <a href="dagoner.github.io/design_types/interaction-design/" class="hvr-float-shadow" style="" >Interaction </a>
+      
+      
+      
+      <a href="dagoner.github.io/design_types/product-design/" class="hvr-float-shadow" style="" >Product </a>
+      
+      
+      
+      
+      
+      <a href="dagoner.github.io/design_types/service-design/" class="hvr-float-shadow" style="" >Service </a>
+      
+      
+      
+      
+      <a href="dagoner.github.ioabout"  class="hvr-float-shadow" style= "">About</a>
+    </div>
+</nav>
+  <header class="header">
+  
+
+
+  <p class="site-desc"></p>
+  
+  <div class="search">
+    <gcse:searchbox-only></gcse:searchbox-only>
+  </div>
+  
+</header>
+  <div class="content_post">
+    <article>
+      <header class="postHeader">
+        <h1 class="postTitle">Ship O’hoi</h1>
+        <div class="postMeta">
+          <time class="postTime" datetime="2019-12-11">2019.12.11 </time>
+          <div class="duration"></div>
+          <div class="author">[Hugo Authors Markus L. Gundersrud Nils Oyvind Hartveit]</div>
+        </div>
+      </header>
+      <div class="postContent">
+        <p><em><strong>An interactive ship controller, when people&rsquo;s hand get close to the controller (don&rsquo;t have to touch), the graph which is related to the controller will pop out to help the boat driver get the information easier.</strong></em></p>
+<h2 id="backround-research">Backround Research</h2>
+<p>this is one project of tangible interaction class, the theme which we choose is ship controller</p>
+<h4 id="field-observation">Field Observation</h4>
+<p>After visiting the <strong>USN</strong> (an university in Norway which aims to educate the captain and has the Simulated bridge), <strong>Lilaas</strong>(an company designs and produces the boat controller ), and talking with the real captain, we find that there are so many controllers on the boat and different controllers are related to different graph on the screen, besides that, there are also many screen on the boat. Well, too many graph and controllers means too much information which cause misunderstanding or mis orperation very easily.</p>
+
+
+
+
+<div class="slideshow-container">
+    
+    <div class="mySlides fade">
+        <img class="slideshow-image" src="/project/ship-controller/gallery_ship_controller1/1.jpg" alt="1.jpg">
+    </div>
+    
+    <div class="mySlides fade">
+        <img class="slideshow-image" src="/project/ship-controller/gallery_ship_controller1/IMG_4941-min.JPG" alt="IMG_4941-min.JPG">
+    </div>
+    
+    <div class="mySlides fade">
+        <img class="slideshow-image" src="/project/ship-controller/gallery_ship_controller1/IMG_4946-min.JPG" alt="IMG_4946-min.JPG">
+    </div>
+    
+    <div class="mySlides fade">
+        <img class="slideshow-image" src="/project/ship-controller/gallery_ship_controller1/IMG_4949-min.JPG" alt="IMG_4949-min.JPG">
+    </div>
+    
+    <div class="mySlides fade">
+        <img class="slideshow-image" src="/project/ship-controller/gallery_ship_controller1/IMG_4951-min.JPG" alt="IMG_4951-min.JPG">
+    </div>
+    
+    <div class="mySlides fade">
+        <img class="slideshow-image" src="/project/ship-controller/gallery_ship_controller1/%e5%9b%be%e7%89%872.jpg" alt="图片2.jpg">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="slideshow-controls">
+        
+        <span class="dot" onclick="currentSlide( 1 )"></span>
+        
+        <span class="dot" onclick="currentSlide( 2 )"></span>
+        
+        <span class="dot" onclick="currentSlide( 3 )"></span>
+        
+        <span class="dot" onclick="currentSlide( 4 )"></span>
+        
+        <span class="dot" onclick="currentSlide( 5 )"></span>
+        
+        <span class="dot" onclick="currentSlide( 6 )"></span>
+        
+    </div>
+</div>
+<div>&nbsp;</div>
+
+<style>
+
+    .slideshow-container {
+        
+        box-sizing: inherit;
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .slideshow-controls {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+
+        display: -webkit-flex;  
+        -webkit-flex-wrap: nowrap;  
+        -webkit-flex-direction: row;  
+        -webkit-justify-content: center;  
+        -webkit-align-items: center;  
+        -webkit-align-content: space-around;  
+    }
+
+    .mySlides {
+        display: none;
+        margin: auto;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .slideshow-image {
+        max-width: 100%;
+    }
+
+    .prev, .next {
+        box-sizing:border-box;
+        cursor: pointer;
+        position: absolute;
+        top: 45%;
+        width: auto;
+        margin-top: 0;
+        padding: 10px;
+        color: #ffffff;
+        background-color: #b1b1b1;
+        opacity: 0.7;
+        font-weight: bold;
+        font-size: 1em;
+        transition: 100ms ease;
+        border-radius: 0 0 0 0;
+        text-decoration: none;
+    }
+
+    .next {
+        box-sizing:border-box;
+        right: 5%;
+        float: right;
+        border-radius: 0 0 0 0;
+    }
+    .prev {
+        box-sizing:border-box;
+        left: 5%;
+        float: left;
+        border-radius: 0 0 0 0;
+    }
+
+    .prev:hover, .next:hover {
+        background-color: #9d9e9f;
+        opacity: 0.5;
+        text-decoration: none;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 0.8em;
+        width: 0.8em;
+        margin: 0.2em;
+        background-color: #e1e2e1;
+        border-radius: 50%;
+        transition: background-color 100ms ease;
+    }
+
+    .active, .dot:hover {
+        background-color: #494949;
+    }
+
+    .fade {
+        animation-name: fade;
+        animation-duration: 400ms;
+        animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);  
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 400ms;
+        -webkit-animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: 0.4;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0.4;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+<script>
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
+</script>
+<h4 id="user-research">User Research</h4>
+<p>We also talked with an <strong>captain</strong> teaching in USN who has 30 years experience of drving Ocean-going freighter, he introduced us the &ldquo;boat sense&rdquo; which is how the driver fell the boat(sounds like some people&rsquo;s filling about their car). So, according to his introduction, the feedback of the boat controller seems not that important. But still, we don&rsquo;t think only rely on sense is the best way, especially for the new driver. Moreover, in Ocean-going freighter this kind of place, it&rsquo;s never too bad to make the information clearer.</p>
+<h2 id="my-aims-with-ship-ohoi">My aims with Ship O’hoi</h2>
+<p>My first aim with Ship O’hoi is <strong>exploring different feedback of the boat controller</strong> and using <strong>the tangible way to make the information clearer</strong> than the traditional controller. Under that goal, we put vibration into the rudder, so the user can feel how many steps which they have rotated without looking at it. Besides that, we also use light to simulate the delay between the direction changing of engine and the rudder. It’s better to put the information in both screen and physical side for the safety reason.
+My other aim is <strong>simplifying the information on the bridge house</strong>, the information in the bridge house is overload because of the complexity of those big boat, and too much information is always a problem for people to use, so we try to simplify those information by putting touch sensor into the propulsion, the graph will popup or be light up when the user’s hand reaches to the propulsion, in this way, we can decrease other information’s disturbing and help user focus on what they are controlling quickly. Moreover, we also put this function into the wiper button, that’s just an example, it can be all kinds of setting button in the bridge house. In this way, we can hide all those settings on the screen and if the user wants to check them, they can just touch those physical buttons to check. In terms of changing those settings, we tried new way of changing settings, the user can choose other choices by rotating the button and confirm the choosing by just releasing the hand.</p>
+<h2 id="final-outcome-clear-control">Final Outcome-Clear Control</h2>
+<h4 id="final-video">Final Video</h4>
+<p>this video will show our final outcome
+<style>
+    .video-position{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+</style>
+
+<div class='video-position' >
+    <figure>
+        <video width='100%'  height='' controls="controls" poster= '' autoplay='' loop='' >
+            <source src= 'https://res.cloudinary.com/dodd7aak7/video/upload/v1589910758/ship-controller/ship_controller_iemkqv.mp4' type="video/mp4" />
+        </video>
+        <figcaption><h6>final video</h6></figcaption>
+    </figure>
+</div></p>
+<h4 id="outcome-1-propulsion">Outcome 1-Propulsion</h4>
+<p>We put the copper foil under our propulsion model and use this as the sensor, since every human being contain charge in the body, the copper can sense the change of charge by the distance between people and the copper. Accourding to that, we can just use this copper foil to make our <strong>interactive propulsion</strong>, that&rsquo;s the main points of this <strong>interactive propulsion</strong>.</p>
+<ul>
+<li>people&rsquo;s hand gets close to the propulsion (a certain distance which should also be suitabel) then trigger the popup on the screen.</li>
+<li>user doesn&rsquo;t have to really touch the propulsion to trigger the effects because touching may cause misoperation.</li>
+</ul>
+<p><style>
+    .video-position{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+</style>
+
+<div class='video-position' >
+    <figure>
+        <video width='100%'  height='' controls="controls" poster= '' autoplay='' loop='' >
+            <source src= 'https://res.cloudinary.com/dodd7aak7/video/upload/v1589910727/ship-controller/Img_6210-1-1_yrlvos.mp4' type="video/mp4" />
+        </video>
+        <figcaption><h6>testing propulsion</h6></figcaption>
+    </figure>
+</div>
+<style>
+    .video-position{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+</style>
+
+<div class='video-position' >
+    <figure>
+        <video width='100%'  height='' controls="controls" poster= '' autoplay='' loop='' >
+            <source src= 'https://res.cloudinary.com/dodd7aak7/video/upload/v1589910734/ship-controller/Img_6390-1_yi8y3l.mp4' type="video/mp4" />
+        </video>
+        <figcaption><h6>final effects</h6></figcaption>
+    </figure>
+</div></p>
+<h6 id="arduino-code">Arduino Code</h6>
+<p>We use arduino library <a href="https://playground.arduino.cc/Main/CapacitiveSensor/"><strong>CapacitiveSensor.h</strong></a> to sense the hand and use Adobe XD to demonstrate the effect. The trick is controlling the <a href="https://www.arduino.cc/en/Main/Arduino_BoardLeonardo"><strong>Arduino Leonardo</strong></a> to press the keyboard and demonstrate the UI on the Adobe XD.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">#include &lt;<span style="color:#f92672">CapacitiveSensor.h</span>&gt;
+#include &lt;<span style="color:#f92672">Keyboard.h</span>&gt;
+// 10M resistor between pins 4 <span style="color:#960050;background-color:#1e0010">&amp;</span> 2, pin 2 is sensor pin, add a wire and or foil if desired
+CapacitiveSensor   cs_4_2 = CapacitiveSensor(4,2);        
+
+void setup()                    
+{
+   // turn off autocalibrate on channel 1 - just as an example
+   cs_4_2.set_CS_AutocaL_Millis(0xFFFFFFFF);    
+   Keyboard.begin();
+   Serial.begin(9600);
+   pinMode(8,INPUT_PULLUP);
+   pinMode(10,OUTPUT);
+}
+
+void loop()                    
+{
+    long start = millis();
+    long total1 =  cs_4_2.capacitiveSensor(30);
+    int button=digitalRead(8);
+    
+     // print sensor output 1
+    Serial.println(total1);                  
+    if (total1 &gt;=350 <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> button==HIGH){
+        Keyboard.press(&#39;1&#39;);
+        digitalWrite(10,HIGH);
+        delay(100);
+        Keyboard.releaseAll();
+    }
+    if(total1 &lt; <span style="color:#f92672">350</span> <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> <span style="color:#a6e22e">button</span><span style="color:#f92672">=</span><span style="color:#e6db74">=HIGH){</span>
+      <span style="color:#a6e22e">Keyboard</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">press</span><span style="color:#960050;background-color:#1e0010">(&#39;</span><span style="color:#a6e22e">2</span><span style="color:#960050;background-color:#1e0010">&#39;);</span>
+      <span style="color:#a6e22e">digitalWrite</span><span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">10</span><span style="color:#960050;background-color:#1e0010">,</span><span style="color:#a6e22e">LOW</span><span style="color:#960050;background-color:#1e0010">);</span>
+      <span style="color:#a6e22e">delay</span><span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">100</span><span style="color:#960050;background-color:#1e0010">);</span>
+      <span style="color:#a6e22e">Keyboard</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">releaseAll</span><span style="color:#960050;background-color:#1e0010">();</span>
+    <span style="color:#960050;background-color:#1e0010">}</span>
+    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#a6e22e">arbitrary</span> <span style="color:#a6e22e">delay</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">limit</span> <span style="color:#a6e22e">data</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">serial</span> <span style="color:#a6e22e">port</span> 
+    <span style="color:#a6e22e">delay</span><span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">10</span><span style="color:#960050;background-color:#1e0010">);</span>                              
+<span style="color:#960050;background-color:#1e0010">}</span></code></pre></div>
+<h6 id="different-popup">Different Popup</h6>
+<p>Since we coperate with ocean lab of our shcool, We also explored different way of the graph&rsquo;s popup based on <a href="http://www.openbridge.no/">OpenBridge Design System</a>. Still, we put our main efforts on the tangible interaction part, so this UI-Popup part is more like opening the topic.
+<style>
+    .img-position{
+        box-shadow:  rgba(0, 0, 0, 0.1);
+        text-align:  ;
+    }
+</style>
+<div class='img-position' >
+<figure>
+    <img src= 'https://res.cloudinary.com/dodd7aak7/video/upload/q_100/v1589910727/ship-controller/Demo_Controller-1-1_renld3.gif' width= '100%' height='' padding-bottom="20px">
+    <figcaption><h6>different popup</h6></figcaption>
+</figure>
+</div></p>
+<h4 id="outcome-2-the-wiper-button">Outcome 2-The Wiper Button</h4>
+<p>Accroding to the technology we use above, we can also design another new interaction on the bridge&mdash;the Setting Button. For example, the wiper button which control the the boat wipe the window of the bridge. There are many this kind of setting in the bridge house which is not that important, but still leaving the button on the table, and if we put all those settings on the screen on screen that will make information  too complicated. So that&rsquo;s the main point of our idea.</p>
+<ul>
+<li>the user&rsquo;s hand <strong>touches the button</strong> and the setting graph will popup.</li>
+<li>the user&rsquo;s hand <strong>must touch the button</strong> because this kind of setting is not common operation compared with the getting close the propulsion. If we still use &ldquo;getting close&rdquo; to trigger the effects, that will influence the normal operation.</li>
+<li>the user can choose different setting by <strong>rotate the button</strong>.</li>
+<li>there are two differnt way of confirming the setting, both of them is kind right but just different way of viewing it.</li>
+</ul>
+<ol>
+<li><strong>releasing the button</strong> to confirm the seeting, this method will reduce the action compared with click the button.</li>
+<li><strong>cliking the button</strong> to confirm the seeting, this method is more normal and logical to express the meaning &ldquo;confirm&rdquo; compared the method above.</li>
+</ol>
+<style>
+    .video-position{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+</style>
+
+<div class='video-position' >
+    <figure>
+        <video width='100%'  height='' controls="controls" poster= '' autoplay='' loop='' >
+            <source src= 'https://res.cloudinary.com/dodd7aak7/video/upload/v1589910733/ship-controller/Img_6392_1_ictiw2.mp4' type="video/mp4" />
+        </video>
+        <figcaption><h6>the wiper button</h6></figcaption>
+    </figure>
+</div>
+<h4 id="outcome-3-the-rudder">Outcome 3-The rudder</h4>
+<p>Our anthor output is the rudder. There are some bridge house using the rudder to control the direction of the boat. Since the boat is too big, the captain have to wait for the engine working after they rotate the rudder. So there is a delay between rotating the rudder and the cargo tanker really change the direction. Nowadays, some advanced ship will express this delay in screen, in this project we also put that on the physical rudder because it&rsquo;s safer and better to express this important information in two different place in case of the emergency situation. So the main point of this part is</p>
+<ul>
+<li>Indicate the <strong>change of direction</strong> in the physical rudder.</li>
+<li>Show the <strong>delay that the the engine</strong> begins to work gradually.</li>
+<li>give the <strong>different feedback</strong> of how much the ship will change the direction by the vibration. eg. Every 5 degree there will be a vibration so the caption have anthor feedback on vibration beyond the screen. That may be safer and give the better experience.</li>
+</ul>
+<style>
+    .video-position{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+</style>
+
+<div class='video-position' >
+    <figure>
+        <video width='100%'  height='' controls="controls" poster= '' autoplay='' loop='' >
+            <source src= 'https://res.cloudinary.com/dodd7aak7/video/upload/v1589910733/ship-controller/Img_6395-1_luargo.mp4' type="video/mp4" />
+        </video>
+        <figcaption><h6>yellow light means the change of direction, bule means the engine, every step there will be the vibration</h6></figcaption>
+    </figure>
+</div>
+<h6 id="making-process">Making process</h6>
+<p>We put the Vibrating motor into the rudder to make the virabtion effect, the advantage of that is user can change how many degree for one vibration. More making process I will put in the end.</p>
+<h6 id="arduino-code-1">Arduino code</h6>
+<p>Since we use Annular RGB strip to simulate the delay, we have to use the arduino library <a href="https://github.com/adafruit/Adafruit_NeoPixel">Adafruit_NeoPixel</a>. About the weird map in the end of the code, that&rsquo;s beacues we use Rotary potentiometer to make the rudder, if we just map the analogpin to 0~14, that will be too sensitive.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-arduino" data-lang="arduino"><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;Adafruit_NeoPixel.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#define LED_PIN    10
+</span><span style="color:#75715e">#define LED_COUNT 13
+</span><span style="color:#75715e">#define BRIGHTNESS 40
+</span><span style="color:#75715e"></span>Adafruit_NeoPixel <span style="color:#a6e22e">strip</span>(LED_COUNT, LED_PIN, NEO_GRB <span style="color:#f92672">+</span> NEO_KHZ800);
+
+<span style="color:#66d9ef">uint32_t</span> Yellow <span style="color:#f92672">=</span> strip.Color(<span style="color:#ae81ff">255</span>,<span style="color:#ae81ff">255</span>,<span style="color:#ae81ff">0</span>);
+<span style="color:#66d9ef">uint32_t</span> Blue <span style="color:#f92672">=</span> strip.Color(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">255</span>);
+<span style="color:#66d9ef">uint32_t</span> Black <span style="color:#f92672">=</span> strip.Color(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>);
+
+<span style="color:#66d9ef">int</span> analogPin<span style="color:#f92672">=</span> A3;
+<span style="color:#66d9ef">int</span> val<span style="color:#f92672">=</span><span style="color:#ae81ff">6</span>;
+<span style="color:#66d9ef">int</span> val1<span style="color:#f92672">=</span><span style="color:#ae81ff">6</span>;
+<span style="color:#66d9ef">int</span> tail<span style="color:#f92672">=</span><span style="color:#ae81ff">6</span>;
+<span style="color:#66d9ef">int</span> tail2<span style="color:#f92672">=</span><span style="color:#ae81ff">6</span>;
+<span style="color:#66d9ef">long</span> tailInterval <span style="color:#f92672">=</span><span style="color:#ae81ff">1000</span>;
+<span style="color:#66d9ef">long</span> tailStart;
+
+                    <span style="color:#75715e">// outside leads to ground and +5V
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> val_vibration <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;  <span style="color:#75715e">// variable to store the value read
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> lastState<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;
+<span style="color:#66d9ef">int</span> currentState<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
+  strip.setBrightness(BRIGHTNESS);
+  strip.<span style="color:#a6e22e">begin</span>();
+  <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">begin</span>(<span style="color:#ae81ff">9600</span>);
+  <span style="color:#a6e22e">pinMode</span>(<span style="color:#ae81ff">3</span>,<span style="color:#66d9ef">OUTPUT</span>);
+}
+
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>() {
+  <span style="color:#66d9ef">int</span> val2 <span style="color:#f92672">=</span> val1;
+  val<span style="color:#f92672">=</span><span style="color:#a6e22e">map</span>(<span style="color:#a6e22e">analogRead</span>(analogPin),<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1000</span>,<span style="color:#ae81ff">14</span>,<span style="color:#ae81ff">0</span>);
+  mymap();
+  <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">millis</span>()<span style="color:#f92672">&gt;</span>tailStart<span style="color:#f92672">+</span> tailInterval){
+    <span style="color:#66d9ef">if</span>(tail <span style="color:#f92672">&lt;</span>val){
+      tail<span style="color:#f92672">++</span>;
+      <span style="color:#66d9ef">if</span>(val<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">6</span><span style="color:#f92672">&amp;&amp;</span> tail<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>){tail<span style="color:#f92672">=</span><span style="color:#ae81ff">6</span>;}
+    }
+    <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span>(tail<span style="color:#f92672">&gt;</span>val){
+      tail<span style="color:#f92672">--</span>;
+      <span style="color:#66d9ef">if</span>(val<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span> <span style="color:#f92672">&amp;&amp;</span> tail<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">6</span>){tail<span style="color:#f92672">=</span><span style="color:#ae81ff">6</span>;}
+      }
+    <span style="color:#66d9ef">else</span>{tail<span style="color:#f92672">=</span>val;}
+    tailStart <span style="color:#f92672">=</span> <span style="color:#a6e22e">millis</span>();
+    <span style="color:#75715e">//Serial.print(&#34;tail &#34;);
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//Serial.println(tail);
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;val &#34;</span>);
+    <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">print</span>(val);
+    <span style="color:#75715e">//Serial.print(&#34; &#34;);
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//Serial.print(&#34;tail2 &#34;);
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//Serial.println(tail2);
+</span><span style="color:#75715e"></span>    }
+    <span style="color:#66d9ef">if</span> (val1 <span style="color:#f92672">!=</span> val2 <span style="color:#f92672">&amp;&amp;</span> lastState<span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>){
+      vibration();
+    }
+    <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (val1<span style="color:#f92672">==</span>val2){
+      <span style="color:#a6e22e">digitalWrite</span>(<span style="color:#ae81ff">3</span>,<span style="color:#66d9ef">LOW</span>);
+      lastState<span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+    }
+  shownow();
+}
+
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">shownow</span>(){
+  <span style="color:#66d9ef">if</span> (val<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">6</span>){
+      strip.<span style="color:#a6e22e">fill</span>(Black,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">6</span>);
+      strip.<span style="color:#a6e22e">fill</span>(Black,val<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">12</span><span style="color:#f92672">-</span>val);
+      strip.<span style="color:#a6e22e">fill</span>(Yellow,<span style="color:#ae81ff">6</span>,(val<span style="color:#f92672">-</span><span style="color:#ae81ff">6</span>)<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>);  
+      strip.<span style="color:#a6e22e">fill</span>(Blue,<span style="color:#ae81ff">6</span>,(tail<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">-</span><span style="color:#ae81ff">6</span>);
+      
+    <span style="color:#66d9ef">if</span>(val<span style="color:#f92672">&lt;</span>tail){
+      strip.<span style="color:#a6e22e">fill</span>(Black,tail<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">12</span><span style="color:#f92672">-</span>(tail));
+      strip.setPixelColor(val, Yellow);
+    }
+    <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span>(val<span style="color:#f92672">==</span>tail){
+      strip.<span style="color:#a6e22e">fill</span>(Blue,<span style="color:#ae81ff">6</span>,tail<span style="color:#f92672">-</span><span style="color:#ae81ff">6</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>);
+    }
+  }
+
+  <span style="color:#66d9ef">if</span> (val<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>){
+    strip.<span style="color:#a6e22e">fill</span>(Black,<span style="color:#ae81ff">7</span>,<span style="color:#ae81ff">6</span>);
+    strip.<span style="color:#a6e22e">fill</span>(Black,<span style="color:#ae81ff">0</span>,val);
+    strip.<span style="color:#a6e22e">fill</span>(Yellow,val,(<span style="color:#ae81ff">6</span><span style="color:#f92672">-</span>val)<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>);
+    strip.<span style="color:#a6e22e">fill</span>(Blue,tail,<span style="color:#ae81ff">7</span><span style="color:#f92672">-</span>tail);
+    <span style="color:#66d9ef">if</span> (val<span style="color:#f92672">&gt;</span>tail){
+      strip.<span style="color:#a6e22e">fill</span>(Black,<span style="color:#ae81ff">0</span>,tail);
+      strip.setPixelColor(val,Yellow);
+    }
+    <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span>(val<span style="color:#f92672">==</span>tail){
+      strip.<span style="color:#a6e22e">fill</span>(Blue,tail,<span style="color:#ae81ff">6</span><span style="color:#f92672">-</span>(tail<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>));
+    }
+  }
+  strip.show();
+}
+
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">vibration</span>(){
+  <span style="color:#a6e22e">digitalWrite</span>(<span style="color:#ae81ff">3</span>,<span style="color:#66d9ef">LOW</span>);
+  <span style="color:#a6e22e">delay</span>(<span style="color:#ae81ff">150</span>);
+  <span style="color:#a6e22e">digitalWrite</span>(<span style="color:#ae81ff">3</span>,<span style="color:#66d9ef">HIGH</span>);
+  <span style="color:#a6e22e">delay</span>(<span style="color:#ae81ff">150</span>);
+  lastState<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>;
+}
+
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">mymap</span>(){
+  <span style="color:#66d9ef">int</span> x<span style="color:#f92672">=</span><span style="color:#a6e22e">analogRead</span>(analogPin);
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">65</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">13</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">75</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">140</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">12</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">150</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">215</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">11</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">225</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">290</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">300</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">365</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">9</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">375</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">440</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">8</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">450</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">515</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">7</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">525</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">590</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">6</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">600</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">665</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">675</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">740</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">750</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">815</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">825</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">890</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">900</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">965</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;}
+  <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">975</span> <span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">1023</span>){val1<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;}
+}
+</code></pre></div><h2 id="the-iterations-we-did">The iterations we did</h2>
+<p>In the process of designing the rudder, we make the mocking up of it and tying different level of vibration, by adjusting the vibration many times we finally choosing the right one. We also did some iterations about the light of the rudder, we tried different way of showing the step such as light dots, line. Except that, we tried different way to show what will happen if the users change the direction of the engine radically. Moreover, we did a lot of tweaks about the distance, which can trigger the popup of the graph, to make it suitable for people to probe what’s the handle for and sensitive enough to use.</p>
+<h2 id="my-reflections-on-the-outcome">My reflections on the outcome</h2>
+<p>The final outcome seems to be very useful for me, the propulsion is sensitive enough to use and it’s also very easy to make, we don’t have to make a lot of changes on the existing handle, that means it’s totally doable to produce it in the real industry. In terms of the way of popup on the screen, that may not be the most suitable way to show it, it’s more for opening a topic, I think we should make it less obvious in the real life or communicating more with the real captains to figure out which information is the more important. Moreover after observing some people using those handles, I also think how to confirm the setting still need to be discussed. Although the releasing to confirm the setting decreases the action, but I think it may be not that natural as normal people’s habit, maybe we can also use click the button to confirm the setting.</p>
+<style>
+    .img-position{
+        box-shadow:  rgba(0, 0, 0, 0.1);
+        text-align:  ;
+    }
+</style>
+<div class='img-position' >
+<figure>
+    <img src= 'https://res.cloudinary.com/dodd7aak7/image/upload/v1589910730/ship-controller/marking_process_nxdii6.jpg' width= '100%' height='' padding-bottom="20px">
+    <figcaption><h6>photos of our making process</h6></figcaption>
+</figure>
+</div>
+
+      </div>
+      
+    </article>
+</div>
+  
+</div>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<footer class="footer">
+    <hr />
+    <div class="author_info">
+    <div class="author">
+        <li>
+            The website is still being improved by Ziyue @
+            <a href="dagoner.github.io/interaction/ship-controller/" alt="">
+                Ziyue Wang
+            </a>
+        </li>
+    </div>
+
+    
+    <div class="social_icon">
+        
+        <li><a href="" class="altColor"><span class="fa fa-behance"></span></a></li>
+        
+        <li><a href="" class="altColor"><span class="fa fa-dribbble"></span></a></li>
+        
+        <li><a href="facebook.com" class="altColor"><span class="fa fa-facebook"></span></a></li>
+        
+        <li><a href="github.com" class="altColor"><span class="fa fa-github"></span></a></li>
+        
+        <li><a href="instagram.com" class="altColor"><span class="fa fa-instagram"></span></a></li>
+        
+        <li><a href="twitter.com" class="altColor"><span class="fa fa-twitter"></span></a></li>
+        
+        <li><a href="youtube.com" class="altColor"><span class="fa fa-youtube"></span></a></li>
+        
+    </div>
+    
+</div>
+</footer>
+
+</body>
+</html>

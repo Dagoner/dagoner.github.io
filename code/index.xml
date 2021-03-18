@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codes on Ziyue Wang</title>
+    <link>dagoner.github.io/code/</link>
+    <description>Recent content in Codes on Ziyue Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Apr 2020 23:33:09 +0800</lastBuildDate><atom:link href="dagoner.github.io/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo shortcode-Click to zoom the image</title>
+      <link>dagoner.github.io/code/hugo-shortcode-%E7%82%B9%E5%87%BB%E5%9B%BE%E7%89%87%E6%94%BE%E5%A4%A7/</link>
+      <pubDate>Sun, 26 Apr 2020 23:33:09 +0800</pubDate>
+      
+      <guid>dagoner.github.io/code/hugo-shortcode-%E7%82%B9%E5%87%BB%E5%9B%BE%E7%89%87%E6%94%BE%E5%A4%A7/</guid>
+      <description>点击图片放大至网页全屏，具体使用效果可参考这篇life wave
+&amp;lt;style&amp;gt; #popup{ position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; text-align: center; display: none; z-index: 9999999; } #popup .bg{ background-color: rgba(0,0,0,0.5); width: 100%; height: 100%; } @media \0screen\,screen\9 { #popup .bg{ background-color:#000000; filter:Alpha(opacity=50); position:static; } #popup .bg img{ position: relative; } } #popup img{ margin-top: 0%; max-height: 100%; } #dedecmsok { text-align: center; } &amp;lt;/style&amp;gt; &amp;lt;div id=&amp;#34;dedecmsok&amp;#34;&amp;gt; &amp;lt;figure&amp;gt; &amp;lt;img src=&amp;#39;{{ .Get &amp;#34;src1&amp;#34; }}&amp;#39; width=&amp;#39;{{ .Get &amp;#34;width1&amp;#34; }}&amp;#39; /&amp;gt; &amp;lt;figcaption&amp;gt;&amp;lt;h6&amp;gt;{{ .</description>
+    </item>
+    
+    <item>
+      <title>Hugo Shortcode-Insert the photo slides</title>
+      <link>dagoner.github.io/code/hugo-shortcode-%E6%8F%92%E5%85%A5%E5%B9%BB%E7%81%AF%E7%89%87/</link>
+      <pubDate>Sun, 26 Apr 2020 23:32:47 +0800</pubDate>
+      
+      <guid>dagoner.github.io/code/hugo-shortcode-%E6%8F%92%E5%85%A5%E5%B9%BB%E7%81%AF%E7%89%87/</guid>
+      <description>.img-position{box-shadow: rgba(0, 0, 0, 0.1);text-align: ;}效果展示 Hugo插入幻灯片 hugo 短代码中通过 .Get 0 来获得第一个值，本例中为滑动照片的照片文件夹路径
+{{ $param := .Get 0 }} {{ $localFolder := ( printf &amp;#34;/static%s&amp;#34; $param ) }} {{ $files := readDir $localFolder }} &amp;lt;div class=&amp;#34;slideshow-container&amp;#34;&amp;gt; {{ range $files }} &amp;lt;div class=&amp;#34;mySlides fade&amp;#34;&amp;gt; &amp;lt;img class=&amp;#34;slideshow-image&amp;#34; src=&amp;#34;{{ $param }}{{ .Name }}&amp;#34; alt=&amp;#34;{{ .Name }}&amp;#34;&amp;gt; &amp;lt;/div&amp;gt; {{ end }} &amp;lt;a class=&amp;#34;prev&amp;#34; onclick=&amp;#34;plusSlides(-1)&amp;#34;&amp;gt;&amp;amp;#10094;&amp;lt;/a&amp;gt; &amp;lt;a class=&amp;#34;next&amp;#34; onclick=&amp;#34;plusSlides(1)&amp;#34;&amp;gt;&amp;amp;#10095;&amp;lt;/a&amp;gt; &amp;lt;div class=&amp;#34;slideshow-controls&amp;#34;&amp;gt; {{ range $index, $value := $files }} &amp;lt;span class=&amp;#34;dot&amp;#34; onclick=&amp;#34;currentSlide({{ add $index 1 }})&amp;#34;&amp;gt;&amp;lt;/span&amp;gt; {{ end }} &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;&amp;amp;nbsp;&amp;lt;/div&amp;gt; &amp;lt;style&amp;gt; .</description>
+    </item>
+    
+    <item>
+      <title>Use fontawesome in markdown</title>
+      <link>dagoner.github.io/code/markdown_fontawesome/</link>
+      <pubDate>Sun, 26 Apr 2020 23:32:47 +0800</pubDate>
+      
+      <guid>dagoner.github.io/code/markdown_fontawesome/</guid>
+      <description>.img-position{box-shadow: rgba(0, 0, 0, 0.1);text-align: ;} 是否合适 尽管在markdown中使用fontawesome来添加小图标不太符合makrdown专注于内容而非形式的宗旨，并且在一些情况下这些小图标格式会有所改。但是，万一用的到呢 : )
+例如本站中的about页面，但本站使用hugo搭建，而直接在markdown中以html的形式使用fontawesome并不会在网页中渲染出来，但是将使用fontawesome的html语句写成shortcode并在markdown页面中使用则可行。
+如何使用 首先一如既往的在markdown文件头部引入fontawesome库
+&amp;lt;head&amp;gt; &amp;lt;script defer src=&amp;#34;https://use.fontawesome.com/releases/v5.0.13/js/all.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script defer src=&amp;#34;https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; 然后直接在markdown文档中使用
+&amp;lt;i class=&amp;#34;{{ index .Params 0 }}&amp;#34;&amp;gt;&amp;lt;/i&amp;gt; xxx </description>
+    </item>
+    
+    <item>
+      <title>Hugo-Change the color of the navigation bar TAB</title>
+      <link>dagoner.github.io/code/hugo_navcolor/</link>
+      <pubDate>Sun, 26 Apr 2020 18:25:45 +0800</pubDate>
+      
+      <guid>dagoner.github.io/code/hugo_navcolor/</guid>
+      <description>How it works 列出所有的section，并通过 if in 检查当前section是否在文章的当前链接中，例如本blog有三个section: code, interaction, about,当进入code section 并浏览本文时，当前文章的url为http://39.97.210.17/code/hugo_navColor/, 此时可检查code section这个字符是否在url中从而改变导航栏选项卡的颜色，具体效果可参考此blog
+&amp;lt;div class=&amp;#34;nav_tags&amp;#34;&amp;gt; {{ $url := .URL}} {{ range .Site.Sections }} &amp;lt;a href=&amp;#34;{{ .URL }}&amp;#34; style=&amp;#34;{{if in $url .URL }} background-color:yellow; {{end}}&amp;#34;&amp;gt;{{.Title}}&amp;lt;/a&amp;gt; {{ end }} &amp;lt;a href=&amp;#34;{{ .Site.BaseURL }}about&amp;#34; style= &amp;#34;{{ if in $url &amp;#34;about&amp;#34;}} background-color:yellow; {{end}}&amp;#34;&amp;gt;About&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp; &amp;lt;/div&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Arduino-capacitive sensor</title>
+      <link>dagoner.github.io/code/capacitive_sensor/</link>
+      <pubDate>Sun, 26 Apr 2020 18:07:11 +0800</pubDate>
+      
+      <guid>dagoner.github.io/code/capacitive_sensor/</guid>
+      <description>.video-position{text-align: center;padding-bottom: 5%;} 通过一根导体测量人体与导体间的距离 相较于常用的arduino红外人感,通过导体测量可在短距离内获得较为精确的数值。
+大部分arduino人感为半球型，而通过导线测量，则可用铜箔连接并覆盖在各种物体表面，这样其使用形式更为灵活。
+实现方式 通过引入arduino library CapacitiveSensor.h 实现，详细资料可参考上述链接。 .img-position{box-shadow: rgba(0, 0, 0, 0.1);text-align: ;}原理图1
+所需物品  较大的电阻 (10w欧姆 - 50兆欧姆) 理论上电阻越大获得的数值越精确 导线或导体 整根导体都作为传感器，因此如果只需要某一段，可使用内层含金属的线皮 铜箔 延伸整个传感面积  arduino 连接方式 .img-position{box-shadow: rgba(0, 0, 0, 0.1);text-align: ;}连接图 arduino code #include &amp;lt;CapacitiveSensor.h&amp;gt; /* * CapitiveSense Library Demo Sketch * Paul Badger 2008 * Uses a high value resistor e.</description>
+    </item>
+    
+  </channel>
+</rss>
