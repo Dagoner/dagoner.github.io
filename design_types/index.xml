@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design_types on Ziyue Wang</title>
-    <link>dagoner.github.io/design_types/</link>
+    <link>https://dagoner.github.io/design_types/</link>
     <description>Recent content in Design_types on Ziyue Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="dagoner.github.io/design_types/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dagoner.github.io/design_types/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interaction Design</title>
-      <link>dagoner.github.io/design_types/interaction-design/</link>
+      <link>https://dagoner.github.io/design_types/interaction-design/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/design_types/interaction-design/</guid>
+      <guid>https://dagoner.github.io/design_types/interaction-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Product Design</title>
-      <link>dagoner.github.io/design_types/product-design/</link>
+      <link>https://dagoner.github.io/design_types/product-design/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/design_types/product-design/</guid>
+      <guid>https://dagoner.github.io/design_types/product-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tangible Interaction</title>
-      <link>dagoner.github.io/design_types/tangible-interaction/</link>
+      <link>https://dagoner.github.io/design_types/tangible-interaction/</link>
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/design_types/tangible-interaction/</guid>
+      <guid>https://dagoner.github.io/design_types/tangible-interaction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service Design</title>
-      <link>dagoner.github.io/design_types/service-design/</link>
+      <link>https://dagoner.github.io/design_types/service-design/</link>
       <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/design_types/service-design/</guid>
+      <guid>https://dagoner.github.io/design_types/service-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Product System Design</title>
-      <link>dagoner.github.io/design_types/product-system-design/</link>
+      <link>https://dagoner.github.io/design_types/product-system-design/</link>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/design_types/product-system-design/</guid>
+      <guid>https://dagoner.github.io/design_types/product-system-design/</guid>
       <description></description>
     </item>
     

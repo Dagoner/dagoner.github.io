@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>design on Ziyue Wang</title>
-    <link>dagoner.github.io/tags/design/</link>
+    <link>https://dagoner.github.io/tags/design/</link>
     <description>Recent content in design on Ziyue Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="dagoner.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dagoner.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bird Museum</title>
-      <link>dagoner.github.io/interaction/birdmuseum/</link>
+      <link>https://dagoner.github.io/interaction/birdmuseum/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/interaction/birdmuseum/</guid>
+      <guid>https://dagoner.github.io/interaction/birdmuseum/</guid>
       <description>Introduction This is a 4 weeks task, we need to find a set of images and make an app for this image set focusing on Ui &amp;amp; UX. My image set is a collection of birds and I want to make a bird species guide from it.
 Brief A funnier bird species guide aims at encouraging people to know and explore more bird species. Users can view and recognize the birds thorough the sounds, location and drawing, besides that, users can also recognize the bird species by photos and add those bird species into their collection just like a bird version Pokémon Go.</description>
     </item>
     
     <item>
       <title>MeetingFog</title>
-      <link>dagoner.github.io/interaction/meetingfog/</link>
+      <link>https://dagoner.github.io/interaction/meetingfog/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/interaction/meetingfog/</guid>
+      <guid>https://dagoner.github.io/interaction/meetingfog/</guid>
       <description>.img-position{box-shadow: rgba(0, 0, 0, 0.1);text-align: left ;} Task requirement How to engage with the CO2 footprints from office meetings? In this task we will look at how Cognite can reduce its own emissions connected to Cognite employees’ behaviour and activities, and focus on the climate gas emissions related to how we run our meetings. By communicating with Cognite’s employees we would like to:</description>
     </item>
     
     <item>
       <title>Bother Sofa</title>
-      <link>dagoner.github.io/product/bothersofa/</link>
+      <link>https://dagoner.github.io/product/bothersofa/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/product/bothersofa/</guid>
+      <guid>https://dagoner.github.io/product/bothersofa/</guid>
       <description>.img-position{box-shadow: rgba(0, 0, 0, 0.1);text-align: ;} Collaborator: Fora Form
 Introduction In this task, we can make a radical design for Fora Form
 Design Brief The backrest of Bother-Sofa is made of elastic rubber band and the user will feel the “wave” if another colleague joins of leave the set.
@@ -40,10 +40,10 @@ Unlike normal office furniture which tries their best to avoid the influence bet
     
     <item>
       <title>Solar Popcorn</title>
-      <link>dagoner.github.io/product/solarpopcorn/</link>
+      <link>https://dagoner.github.io/product/solarpopcorn/</link>
       <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/product/solarpopcorn/</guid>
+      <guid>https://dagoner.github.io/product/solarpopcorn/</guid>
       <description>.img-position{box-shadow: rgba(0, 0, 0, 0.1);text-align: ;} Collaborator: Fora Form
 Introduction In this task, we can choose one of the Fora Form&amp;rsquo;s chair and make an incremental design for it. In this case, I chose the very classic popcorn chair.
 Design brief Solar popcorn is an incremental upgrading of the classic popcorn chair, it adopts thin-film solar panel as the backrest and sitting cushion of the chair to provide power for charging a cellphone.</description>
@@ -51,10 +51,10 @@ Design brief Solar popcorn is an incremental upgrading of the classic popcorn ch
     
     <item>
       <title>Ship O’hoi</title>
-      <link>dagoner.github.io/interaction/ship-controller/</link>
+      <link>https://dagoner.github.io/interaction/ship-controller/</link>
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/interaction/ship-controller/</guid>
+      <guid>https://dagoner.github.io/interaction/ship-controller/</guid>
       <description>An interactive ship controller, when people&amp;rsquo;s hand get close to the controller (don&amp;rsquo;t have to touch), the graph which is related to the controller will pop out to help the boat driver get the information easier.
 Backround Research this is one project of tangible interaction class, the theme which we choose is ship controller
 Field Observation After visiting the USN (an university in Norway which aims to educate the captain and has the Simulated bridge), Lilaas(an company designs and produces the boat controller ), and talking with the real captain, we find that there are so many controllers on the boat and different controllers are related to different graph on the screen, besides that, there are also many screen on the boat.</description>
@@ -62,10 +62,10 @@ Field Observation After visiting the USN (an university in Norway which aims to 
     
     <item>
       <title>Elvelangs-Hug</title>
-      <link>dagoner.github.io/interaction/elvelangs/</link>
+      <link>https://dagoner.github.io/interaction/elvelangs/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/interaction/elvelangs/</guid>
+      <guid>https://dagoner.github.io/interaction/elvelangs/</guid>
       <description>An interactive device cooperating with Stiftelsen Organdonasjon to help more people know dead organ donation.
 Topic Source This project is one of our tangible interaction project and we cooperate with a organ donation organization of Oslo named Stiftelsen Organdonasjon, theme to introduce the idea of dead organ donation to more people. And this Interactive device finally showed in the light show called Elvelangs and attracted a lot of people.
 One For Seven After their introduction, we thinked various of ideas.</description>
@@ -73,58 +73,58 @@ One For Seven After their introduction, we thinked various of ideas.</descriptio
     
     <item>
       <title>Life Wave</title>
-      <link>dagoner.github.io/interaction/life_wave/</link>
+      <link>https://dagoner.github.io/interaction/life_wave/</link>
       <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/interaction/life_wave/</guid>
+      <guid>https://dagoner.github.io/interaction/life_wave/</guid>
       <description>Design brief Information is the essence of life. This design focuses on propagating a certain kind of electromagnetic waves towards the universe which is based on the analysis of the DNA of the pets. As a result, the traces of the pets’ life can stay for a rather long time, or even forever. This way of handling the body of pets doesn’t occupy any physical space. This kind of electromagnetic waves can’t be touched or felt by human, however, they do exist.</description>
     </item>
     
     <item>
       <title>Plantales</title>
-      <link>dagoner.github.io/interaction/plantatles/</link>
+      <link>https://dagoner.github.io/interaction/plantatles/</link>
       <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/interaction/plantatles/</guid>
+      <guid>https://dagoner.github.io/interaction/plantatles/</guid>
       <description>Design brief “Plantales” hope to create planting area for the elderly through overall arrangement of open space in the community, such as the roofs. We invite the elderly people to join us and divide them into groups. At the beginning, we will provide lectures，workshops and materials to teach them planting skills. Then there will be parent-child activities, cooperation with community kindergartens, and so on. After harvest, we will organize activities to distribute the vegetables to other lonely elderly in the communities.</description>
     </item>
     
     <item>
       <title>Coding-Arm</title>
-      <link>dagoner.github.io/product/coding-arm/</link>
+      <link>https://dagoner.github.io/product/coding-arm/</link>
       <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/product/coding-arm/</guid>
+      <guid>https://dagoner.github.io/product/coding-arm/</guid>
       <description>Design brief This design lets the children plan the movements of hands in advance. Then they can control the angle, the barrel and the mechanical arm to finish the action. In the process, children could understand that even the complex arm movements can be disassembled into several simple and repeated steps. Therefore, it contributes to the cultivation of children’s programming thinking.
 click to enlarge the image and if not clear enlough, please use the reading mode fo the browser img{box-shadow: rgba(0, 0, 0, 0.</description>
     </item>
     
     <item>
       <title>GuardRailer</title>
-      <link>dagoner.github.io/product/guradrailer/</link>
+      <link>https://dagoner.github.io/product/guradrailer/</link>
       <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/product/guradrailer/</guid>
+      <guid>https://dagoner.github.io/product/guradrailer/</guid>
       <description>Design brief In this design, the cleaner hangs on the highway guardrail of “W” shape. Then the cleaner can clean the highway guardrail without people’s efforts. What’s more, the cleaner doesn’t occupy any highway track. In addition, the cleaner will adopt nozzle with high-temperature steam, which contributes to saving much water.
 click to enlarge the image and if not clear enlough, please use the reading mode fo the browser img{box-shadow: rgba(0, 0, 0, 0.</description>
     </item>
     
     <item>
       <title>Linker</title>
-      <link>dagoner.github.io/product/linker/</link>
+      <link>https://dagoner.github.io/product/linker/</link>
       <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/product/linker/</guid>
+      <guid>https://dagoner.github.io/product/linker/</guid>
       <description>Design brief The special copper sheet, the structure of which is like ratchet, can connect two wires by being pressed only once instead of the complex steps described above
 click to enlarge the image and if not clear enlough, please use the reading mode fo the browser img{box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;}#popup{position: fixed;left: 0px;top: 0px;width: 100%;height: 100%;text-align: center;display: none;z-index: 9999999;}#popup .</description>
     </item>
     
     <item>
       <title>INIS</title>
-      <link>dagoner.github.io/product/inis/</link>
+      <link>https://dagoner.github.io/product/inis/</link>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>dagoner.github.io/product/inis/</guid>
+      <guid>https://dagoner.github.io/product/inis/</guid>
       <description>Design brief Product system is generated by incorporating smart working light, smart blinds and solar tracking station together. Blinds are adjusted according to the solar position and reflections of buildings. Indoor illumination and colour temperature are regulated based on screened illumination, eliminating unnecessary power consumption and therefore achieving satisfactory results.
 click to enlarge the image and if not clear enlough, please use the reading mode fo the browser img{box-shadow: rgba(0, 0, 0, 0.</description>
     </item>
