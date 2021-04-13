@@ -31,6 +31,17 @@ Design brief Solar popcorn is an incremental upgrading of the classic popcorn ch
     </item>
     
     <item>
+      <title>Ship O’hoi</title>
+      <link>https://dagoner.github.io/interaction/ship-controller/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dagoner.github.io/interaction/ship-controller/</guid>
+      <description>An interactive ship controller, when people&amp;rsquo;s hand get close to the controller (don&amp;rsquo;t have to touch), the graph which is related to the controller will pop out to help the boat driver get the information easier.
+Backround Research this is one project of tangible interaction class, the theme which we choose is ship controller
+Field Observation After visiting the USN (an university in Norway which aims to educate the captain and has the Simulated bridge), Lilaas(an company designs and produces the boat controller ), and talking with the real captain, we find that there are so many controllers on the boat and different controllers are related to different graph on the screen, besides that, there are also many screen on the boat.</description>
+    </item>
+    
+    <item>
       <title>Life Wave</title>
       <link>https://dagoner.github.io/interaction/life_wave/</link>
       <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
